@@ -1,0 +1,23 @@
+_id: req_079976b5f79441bdbb15ccb1cbd7ba62
+type: Request
+parentId: fld_b798ab4dd9d84c88b98ba31c4b3d256c
+modified: 1695875345203
+created: 1695875272413
+url: "{{ _['dev-api-halokak'] }}/web/kategori"
+name: List
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1695874851564
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

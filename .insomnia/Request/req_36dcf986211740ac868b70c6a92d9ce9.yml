@@ -1,0 +1,23 @@
+_id: req_36dcf986211740ac868b70c6a92d9ce9
+type: Request
+parentId: fld_cac29589a0004c228614951255cd6151
+modified: 1695875382527
+created: 1695875331766
+url: "{{ _['dev-api-halokak'] }}/web/diskon"
+name: List
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1695874851564
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
