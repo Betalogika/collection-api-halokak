@@ -1,0 +1,32 @@
+_id: req_a81d1ed070c248b58d7e646c3c5bdba1
+type: Request
+parentId: fld_2d5cfa34c0e64001a9619b92cadf3e04
+modified: 1695874944673
+created: 1695874878425
+url: "{{ _['dev-api-halokak'] }}/web/articles"
+name: Create
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"title": "halo semua",
+    	"permalink": "halo-semua",
+    	"content": "halo semuanya apa kabarnya"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1695874878425
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
