@@ -1,0 +1,23 @@
+_id: req_9cf9a9a37a2740139a939ce4e48d02e9
+type: Request
+parentId: fld_e489ea0f53df49c3b0260a2a4ea758c5
+modified: 1695873822208
+created: 1695873762935
+url: "{{ _['dev-api-halokak'] }}/mentor/auth/login"
+name: Login
+description: ""
+method: POST
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1695873821946
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
