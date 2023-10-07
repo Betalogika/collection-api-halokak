@@ -1,9 +1,9 @@
 _id: req_3ee514da4dcc4214a69c0431b58f20b8
 type: Request
 parentId: fld_b52334334b44491fb1a95b62fb9ca0ef
-modified: 1696689786688
+modified: 1696697976825
 created: 1696680090673
-url: "{{ _.url }}/change/{{ _.tokenURLResetPass }}/password"
+url: "{{ _['dev-api-halokak'] }}/change/{{ _.tokenURLResetPass }}/password"
 name: Change Password
 description: ""
 method: POST
@@ -12,7 +12,7 @@ body:
   text: |-
     {
     	"email": "muhdevapp@gmail.com", 
-    	"password_lama": "12345",
+    	"password_lama": "Codingweb1129321!@#",
     	"password_baru": "wadaw112"
     }
 parameters: []

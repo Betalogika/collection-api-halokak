@@ -1,9 +1,9 @@
 _id: req_f82eb28d9d53406cb27b55848327a7d6
 type: Request
 parentId: fld_5b528af60c4a49b59677a6ce10686901
-modified: 1696688846066
+modified: 1696697732598
 created: 1696669632974
-url: "{{ _.url }}/verify/{{ _.tokenURL }}/check"
+url: "{{ _['dev-api-halokak'] }}/verify/{{ _.tokenURL }}/check"
 name: Check Verify
 description: ""
 method: GET

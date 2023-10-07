@@ -1,9 +1,9 @@
 _id: req_74483182807e460fafd45e86104dac38
 type: Request
 parentId: fld_13f5ace9699c4c66b7aa0b1e5deab8ec
-modified: 1696643903838
+modified: 1696697665478
 created: 1695873884389
-url: "{{ _.url }}/api/v1/user/auth/register"
+url: "{{ _['dev-api-halokak'] }}/user/auth/register"
 name: Register
 description: ""
 method: POST
@@ -11,10 +11,10 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"username": "samsul_marif",
+    	"username": "samsuldev",
     	"email": "muhdevapp@gmail.com",
-    	"password": 12345,
-    	"password_confirmation": 12345
+    	"password": "Codingweb1129321!@#",
+    	"password_confirmation": "Codingweb1129321!@#"
     }
 parameters: []
 headers:

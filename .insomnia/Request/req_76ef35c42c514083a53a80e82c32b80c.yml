@@ -1,7 +1,7 @@
 _id: req_76ef35c42c514083a53a80e82c32b80c
 type: Request
 parentId: fld_13f5ace9699c4c66b7aa0b1e5deab8ec
-modified: 1695873944410
+modified: 1696696573812
 created: 1695873941475
 url: "{{ _['dev-api-halokak'] }}/user/auth/logout"
 name: Logout
