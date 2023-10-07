@@ -1,16 +1,20 @@
 _id: env_92f30a5b650c4c58a0167761e1de1195
 type: Environment
 parentId: env_98cafe98f74da677ff753972fc5999db0e638941
-modified: 1695875588760
+modified: 1696689233421
 created: 1695418212226
 name: samsul
 data:
   token_dev: dasdasd
   users: Bearer {{ _.token_dev }}
+  tokenURL: kjfEuc3S33KFiQGswA8TbM37GQZWWmhUZ1jnqmrl160QzkZJ7zBZ1ufvsrne0KtA
+  tokenURLResetPass: SWxFjzG3sYAhgm5alyjykHfKjyW2HBzhWUrmvnp12vcLiVJeUeckX9LMHC7l29Sa
 dataPropertyOrder:
   "&":
     - token_dev
     - users
+    - tokenURL
+    - tokenURLResetPass
 color: "#c30417"
 isPrivate: false
 metaSortKey: 1695418212226

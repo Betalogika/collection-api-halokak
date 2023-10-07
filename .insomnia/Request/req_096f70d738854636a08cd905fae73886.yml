@@ -1,0 +1,28 @@
+_id: req_096f70d738854636a08cd905fae73886
+type: Request
+parentId: fld_b52334334b44491fb1a95b62fb9ca0ef
+modified: 1696688935008
+created: 1696680045094
+url: "{{ _.url }}/forgot/password"
+name: Password
+description: ""
+method: POST
+body: {}
+parameters:
+  - id: pair_74cc5ab193d74d37a8c0a329d196ad65
+    name: email
+    value: muhdevapp@gmail.com
+    description: ""
+    disabled: true
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1696680045094
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,17 +1,26 @@
 _id: req_7bf8173b14984929a58210223b0ed32e
 type: Request
 parentId: fld_a2436e4eca614a11aa6fe14fed5c6542
-modified: 1695873799483
+modified: 1696411413307
 created: 1695873556329
 url: "{{ _['dev-api-halokak'] }}/admin/auth/login"
 name: Login
 description: ""
 method: POST
-body: {}
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email": "admin@gmail.com",
+    	"password": "12345"
+    }
 parameters: []
 headers:
+  - name: Content-Type
+    value: application/json
   - name: User-Agent
     value: insomnia/2023.5.8
+    id: pair_5a81324deaa844a5bd5006f29419c85b
 authentication: {}
 metaSortKey: -1695873799261
 isPrivate: false

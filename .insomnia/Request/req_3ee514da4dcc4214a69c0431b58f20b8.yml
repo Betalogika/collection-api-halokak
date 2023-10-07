@@ -1,18 +1,19 @@
-_id: req_0ba70843def348dba2fd11d904da1012
+_id: req_3ee514da4dcc4214a69c0431b58f20b8
 type: Request
-parentId: fld_13f5ace9699c4c66b7aa0b1e5deab8ec
-modified: 1696689815939
-created: 1695873768222
-url: "{{ _.url }}/user/auth/login"
-name: Login
+parentId: fld_b52334334b44491fb1a95b62fb9ca0ef
+modified: 1696689786688
+created: 1696680090673
+url: "{{ _.url }}/change/{{ _.tokenURLResetPass }}/password"
+name: Change Password
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"email": "muhdevapp@gmail.com",
-    	"password": "wadaw112"
+    	"email": "muhdevapp@gmail.com", 
+    	"password_lama": "12345",
+    	"password_baru": "wadaw112"
     }
 parameters: []
 headers:
@@ -21,7 +22,7 @@ headers:
   - name: User-Agent
     value: insomnia/2023.5.8
 authentication: {}
-metaSortKey: -1695873818778
+metaSortKey: -1696674839034
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

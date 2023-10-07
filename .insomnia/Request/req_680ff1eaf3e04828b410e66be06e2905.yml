@@ -1,7 +1,7 @@
 _id: req_680ff1eaf3e04828b410e66be06e2905
 type: Request
 parentId: fld_3be0920aada049f38b6ed4756e0c3ad5
-modified: 1695875356172
+modified: 1695896462629
 created: 1695875286062
 url: "{{ _['dev-api-halokak'] }}/web/rekomendasi"
 name: List

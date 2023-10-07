@@ -1,10 +1,10 @@
-_id: req_e0d7e610bbfd475cb8df85584336f0ab
+_id: req_f82eb28d9d53406cb27b55848327a7d6
 type: Request
-parentId: fld_2d5cfa34c0e64001a9619b92cadf3e04
-modified: 1695888787372
-created: 1695874837767
-url: "{{ _['dev-api-halokak'] }}/web/articles"
-name: List
+parentId: fld_5b528af60c4a49b59677a6ce10686901
+modified: 1696688846066
+created: 1696669632974
+url: "{{ _.url }}/verify/{{ _.tokenURL }}/check"
+name: Check Verify
 description: ""
 method: GET
 body: {}
@@ -13,7 +13,7 @@ headers:
   - name: User-Agent
     value: insomnia/2023.5.8
 authentication: {}
-metaSortKey: -1695874851564
+metaSortKey: -1696669632974
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

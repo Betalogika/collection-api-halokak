@@ -1,7 +1,7 @@
 _id: req_36dcf986211740ac868b70c6a92d9ce9
 type: Request
 parentId: fld_cac29589a0004c228614951255cd6151
-modified: 1695875382527
+modified: 1695888743505
 created: 1695875331766
 url: "{{ _['dev-api-halokak'] }}/web/diskon"
 name: List
