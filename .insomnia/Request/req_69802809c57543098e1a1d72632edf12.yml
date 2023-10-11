@@ -1,15 +1,25 @@
 _id: req_69802809c57543098e1a1d72632edf12
 type: Request
 parentId: fld_e489ea0f53df49c3b0260a2a4ea758c5
-modified: 1695873892084
+modified: 1696996969087
 created: 1695873879448
-url: "{{ _['dev-api-halokak'] }}/mentor/auth/register"
+url: "{{ _.url }}/mentor/auth/register"
 name: Register
 description: ""
 method: POST
-body: {}
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"username": "miftah",
+    	"email": "syamsulmar_f1b118038@student.uho.ac.id",
+    	"password": "12345",
+    	"password_confirmation": "12345"
+    }
 parameters: []
 headers:
+  - name: Content-Type
+    value: application/json
   - name: User-Agent
     value: insomnia/2023.5.8
 authentication: {}
