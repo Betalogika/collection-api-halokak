@@ -1,0 +1,49 @@
+_id: req_110af0575c854c46b5a0e38c4010bbe0
+type: Request
+parentId: fld_d3de7fc373c1460396d21af3392871fd
+modified: 1697084183230
+created: 1697083533832
+url: "{{ _.url }}/mentor/room/message"
+name: chatRoom
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"code": "VEF-AUKq-MwJ",
+    	"message": "halo anak2 hari ini saya ngajarin kalian yah"
+    }
+parameters:
+  - id: pair_e85eac79be13446fa8e835a6f5862b70
+    name: code
+    value: M
+    description: ""
+    disabled: true
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+    id: pair_e5d1b00013ce4e8097621fdd74839caf
+  - id: pair_30c2afcfb40c40c9a8a9b17ba90daba6
+    name: Authorization
+    value: "{{ _['token-mentor'] }}"
+    description: ""
+  - id: pair_fcc210a7e11942e1a39d65daeef9c7db
+    name: X-HALOKAK-PLATFORM
+    value: web
+    description: ""
+  - id: pair_dd8eda8b7c1f4580a939caf21ce37b1a
+    name: X-HALOKAK-VERSION
+    value: 1.0.0
+    description: ""
+authentication: {}
+metaSortKey: -1697037315509.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

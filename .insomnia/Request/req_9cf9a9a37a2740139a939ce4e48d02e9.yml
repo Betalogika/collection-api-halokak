@@ -1,7 +1,7 @@
 _id: req_9cf9a9a37a2740139a939ce4e48d02e9
 type: Request
 parentId: fld_e489ea0f53df49c3b0260a2a4ea758c5
-modified: 1697016438117
+modified: 1697081509996
 created: 1695873762935
 url: "{{ _.url }}/mentor/auth/login"
 name: Login
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"email": "suryo@gmail.com",
+    	"email": "syamsulmar_f1b118038@student.uho.ac.id",
     	"password": "12345"
     }
 parameters: []

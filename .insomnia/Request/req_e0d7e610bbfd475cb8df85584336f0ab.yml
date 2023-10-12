@@ -1,9 +1,9 @@
 _id: req_e0d7e610bbfd475cb8df85584336f0ab
 type: Request
 parentId: fld_2d5cfa34c0e64001a9619b92cadf3e04
-modified: 1695888787372
+modified: 1697070027080
 created: 1695874837767
-url: "{{ _['dev-api-halokak'] }}/web/articles"
+url: "{{ _.url }}/web/articles"
 name: List
 description: ""
 method: GET

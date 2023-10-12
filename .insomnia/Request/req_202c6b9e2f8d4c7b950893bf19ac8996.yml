@@ -1,7 +1,7 @@
 _id: req_202c6b9e2f8d4c7b950893bf19ac8996
 type: Request
 parentId: fld_96c065821ec84777968c4e790cd2fabe
-modified: 1697016924122
+modified: 1697023295984
 created: 1696997094973
 url: "{{ _.url }}/user/profile"
 name: profile
@@ -33,7 +33,6 @@ parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_c023ac9d0f4e400dbc5d03899eb5edbe
   - name: User-Agent
     value: insomnia/2023.5.8
     id: pair_3944f4171c684c259d444ae53fce7578
