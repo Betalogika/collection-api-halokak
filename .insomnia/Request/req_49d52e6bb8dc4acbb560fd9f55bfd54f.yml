@@ -1,18 +1,19 @@
 _id: req_49d52e6bb8dc4acbb560fd9f55bfd54f
 type: Request
 parentId: fld_d3de7fc373c1460396d21af3392871fd
-modified: 1697083491700
+modified: 1697208343412
 created: 1697077536046
 url: "{{ _.url }}/mentor/room"
 name: room
 description: ""
 method: GET
 body:
-  mimeType: text/plain
+  mimeType: application/json
   text: |-
     {
-    	"title": "mentoring fisika",
-    	"desc": "harap masuk di room ini"
+    	"title": "mentoring teknik",
+    	"desc": "harap masuk di room ini",
+    	"status": "active"
     }
 parameters:
   - id: pair_e85eac79be13446fa8e835a6f5862b70
@@ -22,14 +23,14 @@ parameters:
     disabled: true
 headers:
   - name: Content-Type
-    value: text/plain
-    id: pair_983848ef89aa4ab4bbe5175b3b462330
+    value: application/json
   - name: User-Agent
     value: insomnia/2023.5.8
     id: pair_e5d1b00013ce4e8097621fdd74839caf
   - id: pair_30c2afcfb40c40c9a8a9b17ba90daba6
     name: Authorization
-    value: "{{ _['token-mentor'] }}"
+    value: Bearer
+      eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMDA0ZGZhMDA3Mjg2ZDI1YmI4OTc3OTgwOTkyNDI0OGRiMWM5YjM2NTVhNjcyN2IyN2U2MGNiZmZlMzUyMzFmYjRiOTM5YTYzM2FmM2I3MjIiLCJpYXQiOjE2OTcyMDY5NjAuMDE0NDk3LCJuYmYiOjE2OTcyMDY5NjAuMDE0NTE0LCJleHAiOjE3Mjg4MjkzNTkuOTk5OTg2LCJzdWIiOiI0Iiwic2NvcGVzIjpbXX0.Otu6NOmKn5IcJ4UgV2cr6BmBRcett7-YJIVhewnStYCN7bDf3l1burMtkOoNPEVdg8AkwPkrdQ-SaeJX9Rv3S1lpFuKKOo8zzeA1YFpC8oG9F1Wjx64EGkx95c2vscAa3kaZDqaPN_jxM4Yu5TUZmVkdXM69oRsB5KBNATtn-TJ5sOShRncatZLHCjgVoOYhZZ9wXa_W7DwRXS8csdSFFALTc17jElKbsczj7QUKAZTfLsgzxmBEy69B3itHqA53j_lnw-_jfVdlF9aIDQu2TX3DGS1AF6Go8KkaiWAmvEMAxtJdkl9Is056-meWtvuebdE5BZPQ_Yw2fEf8PSEK7aFMDN1EnMJllgd43AzUQAMc4lSQHzbADJdYx8pZ2XM80SPmnuxuEuI-ybLlaNu7s1itLKfPHKrTtGv4reIWBkYaYA_c7C5nNZkeS2mFvxzHSQBXhSLnqhW3BH8XVAcy7gWgEUL0eB9O-GYJJir5Lu866cd5bppwYgeOpS-tYP4xAqJ5LlheivECb9nTxkqE_2KCnG6VHeAtNmu-VuIZnZMrTEEv7kyXYzuwqHSMfo8pb6xIabrL2YvJ7x67TLixonC1o_gqC4HNcxWqhHsBUZq3lnUaTQmDSZiIkHWEhQgVFT8KLFw7_OzbNIK6-0ZKcMOBWruAYY9qj2OZr41wNGs
     description: ""
   - id: pair_fcc210a7e11942e1a39d65daeef9c7db
     name: X-HALOKAK-PLATFORM
