@@ -1,18 +1,19 @@
-_id: req_110af0575c854c46b5a0e38c4010bbe0
+_id: req_ca8b8d2ebc2b4061a9f1313a164a9033
 type: Request
 parentId: fld_d3de7fc373c1460396d21af3392871fd
-modified: 1697245072492
-created: 1697083533832
-url: "{{ _.url }}/mentor/room/message"
+modified: 1697248950308
+created: 1697248911173
+url: "{{ _.url }}/mentor/room/{{ _['code-room'] }}/message"
 name: chatRoom
 description: ""
 method: POST
 body:
-  mimeType: application/json
-  text: >-
+  mimeType: text/plain
+  text: |-
     {
-    	"code": "LXH-B9kT-WwM",
-    	"message": "halo anak2 hari ini saya ngajarin kalian yah kalo gak mau belajar pulang lah"
+    	"title": "mentoring teknik",
+    	"desc": "harap masuk di room ini",
+    	"status": "active"
     }
 parameters:
   - id: pair_e85eac79be13446fa8e835a6f5862b70
@@ -22,8 +23,8 @@ parameters:
     disabled: true
 headers:
   - name: Content-Type
-    value: application/json
-    id: pair_7531bf4577524d558964616ac4f706ab
+    value: text/plain
+    id: pair_4f16e69e4495449cb7aed3b8dd8f0903
   - name: User-Agent
     value: insomnia/2023.5.8
     id: pair_e5d1b00013ce4e8097621fdd74839caf
@@ -40,7 +41,7 @@ headers:
     value: 1.0.0
     description: ""
 authentication: {}
-metaSortKey: -1697037315509.5
+metaSortKey: -1697057425777.75
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

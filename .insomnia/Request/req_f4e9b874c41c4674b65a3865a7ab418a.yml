@@ -1,0 +1,44 @@
+_id: req_f4e9b874c41c4674b65a3865a7ab418a
+type: Request
+parentId: fld_8b54a088f85745c9b2bf193f6f5766af
+modified: 1697248390874
+created: 1697245099884
+url: "{{ _.url }}/user/room/message"
+name: Chatroom
+description: ""
+method: POST
+body:
+  mimeType: text/plain
+  text: |-
+    {
+    	"code": "LXH-B9kT-WwM",
+    	"message": "cepet lah ajarin jangan banyak bacotan"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: text/plain
+  - name: User-Agent
+    value: insomnia/2023.5.8
+    id: pair_dd5f2a224d784a6eac604db704a5549b
+  - id: pair_f6ac438068ef401ebfa428933fb213d2
+    name: Authorization
+    value: "{{ _['token-users'] }}"
+    description: ""
+  - id: pair_1bb3e572a7cb4a4f89d3df6af29c9119
+    name: X-HALOKAK-PLATFORM
+    value: web
+    description: ""
+  - id: pair_c4917b38c2f14ee1b2297555bbbcbdda
+    name: X-HALOKAK-VERSION
+    value: 1.0.0
+    description: ""
+authentication: {}
+metaSortKey: -1697245099884
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

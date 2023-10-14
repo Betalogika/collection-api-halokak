@@ -1,7 +1,7 @@
 _id: env_92f30a5b650c4c58a0167761e1de1195
 type: Environment
 parentId: env_98cafe98f74da677ff753972fc5999db0e638941
-modified: 1697081774044
+modified: 1697248675212
 created: 1695418212226
 name: samsul
 data:
@@ -13,6 +13,7 @@ data:
   token-admin: Bearer {{ _.token_admin }}
   tokenURL: EoLNiPv3b8Y8DHcSrYDlUCIXwE2qxfHOmHDUzQIBmbvUb4CsqvoOuh8uZCOm6FEM
   tokenURLResetPass: 7tkxjgPS6xVOcm5YC3K8sUO49f4e9AHEejVcPgVZs51WPpN1guYow5yYaBCPlVXI
+  code-room: LXH-B9kT-WwM
 dataPropertyOrder:
   "&":
     - token_users
@@ -23,6 +24,7 @@ dataPropertyOrder:
     - token-admin
     - tokenURL
     - tokenURLResetPass
+    - code-room
 color: "#c30417"
 isPrivate: false
 metaSortKey: 1695418212226
