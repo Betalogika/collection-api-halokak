@@ -1,9 +1,11 @@
 _id: req_2d854b7b19cb4ed09cc7f7120c2a66a5
 type: Request
 parentId: fld_5b528af60c4a49b59677a6ce10686901
-modified: 1696991341388
+modified: 1697267260987
 created: 1696669663015
-url: "{{ _.url }}/verify/{{ _.tokenURL }}/account"
+url: "{{ _['dev-api-halokak']
+  }}/verify/uhWnJkHsruToQ145V8aPI5Lj1MzOXZgK3qVRcm0Vr8C7FRHXlZv2e4dwG5rkELmy/ac\
+  count"
 name: Verify
 description: ""
 method: POST

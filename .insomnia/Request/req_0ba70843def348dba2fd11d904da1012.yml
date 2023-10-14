@@ -1,9 +1,9 @@
 _id: req_0ba70843def348dba2fd11d904da1012
 type: Request
 parentId: fld_13f5ace9699c4c66b7aa0b1e5deab8ec
-modified: 1697022909918
+modified: 1697267308707
 created: 1695873768222
-url: "{{ _.url }}/user/auth/login"
+url: "{{ _['dev-api-halokak'] }}/user/auth/login"
 name: Login
 description: ""
 method: POST
@@ -11,8 +11,8 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"email": "samsul.marif100@gmail.com",
-    	"password": "12345"
+    	"email": "samsul.idijakpus@gmail.com",
+    	"password": "1129321"
     }
 parameters: []
 headers:
